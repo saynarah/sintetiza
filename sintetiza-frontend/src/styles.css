@@ -3,14 +3,16 @@
 html,
 body {
   height: 100%;
+  width: 100%;
+  background-size: contain;
 }
 body {
   margin: 0;
   font-family: Roboto, "Helvetica Neue", sans-serif;
 }
 :root {
-  --color-1: #f4f1fa/*#191013/*#1c0b2b /*#efd8a4*/;
-  --color-2: #E39E5B/*#301c41 /*#e8ae96*/;
+  --color-1: #dfdfdf /*#191013/*#1c0b2b /*#efd8a4*/;
+  --color-2: #e39e5b /*#301c41 /*#e8ae96*/;
   --color-7: #d37a20;
   --color-3: #413b6b /*#e49d89*/;
   --color-4: #5c65c0 /*#e47f83*/;
