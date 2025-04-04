@@ -1,0 +1,16 @@
+button {
+    background-color: var(--color-2);
+    min-width: 15rem;
+}
+
+button:hover{
+    background-color: var(--color-7);
+}
+
+label {
+    color: var(--color-8);
+}
+
+input {
+    min-width: 30rem;
+}
