@@ -1,11 +1,5 @@
 footer {
-    background-color: red;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
-    gap: 0px 0px;
-    grid-template-areas:"TextoCopyright";
-    align-items: center;
+    background-color:var(--color-2);
     padding: 1rem 2rem;
   }
   
@@ -15,7 +9,7 @@ footer {
   }
   
   footer small {
-    color: white;
+    color: var(--color-1);
   }
   
   @media (max-width: 576px) {

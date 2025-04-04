@@ -1,8 +1,9 @@
 import { Component } from '@angular/core';
+import { SpeechBubbleComponent } from "../../components/speech-bubble/speech-bubble.component";
 
 @Component({
   selector: 'app-home',
-  imports: [],
+  imports: [SpeechBubbleComponent],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
 })
