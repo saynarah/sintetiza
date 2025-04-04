@@ -1,0 +1,14 @@
+:root {
+    --color-1: #1c0b2b /*#efd8a4*/;
+    --color-2: #301c41 /*#e8ae96*/;
+    --color-3: #413b6b /*#e49d89*/;
+    --color-4: #5c65c0 /*#e47f83*/;
+    --color-5: #6f95ff /*#a8c99e*/;
+    --color-6: #F4F1FA;
+  }
+
+main {
+    background-color: (var(--color-6));
+    background-size: cover;
+    min-height: 60vh;
+}
