@@ -1,16 +1,21 @@
 button {
-    background-color: var(--color-2);
-    min-width: 15rem;
+  background-color: var(--color-2);
+  min-width: 15rem;
 }
 
-button:hover{
-    background-color: var(--color-7);
+button:hover {
+  background-color: var(--color-7);
 }
 
 label {
-    color: var(--color-8);
+  color: var(--color-8);
 }
 
 input {
-    min-width: 30rem;
+  min-width: 30rem;
+}
+
+button:disabled {
+  background-color: #747f87;
+  color: #ffffff;
 }

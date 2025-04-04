@@ -10,7 +10,8 @@
         <label class="font-light px-3">{{ words.length }}/5 palavras</label>
     </div>
     <button 
-        class="px-6 py-2 text-white font-bold rounded-lg shadow-md transition"
+        class="px-6 py-2 text-white font-bold rounded-lg shadow-md transition disabled:cursor-not-allowed"
+        [disabled]="limitWord"
         (click)="saveWord()">
         Enviar
     </button>
