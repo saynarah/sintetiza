@@ -13,7 +13,7 @@ export class SintetizeService {
     constructor(private http: HttpClient){}
 
     getQuestionRound() : Observable<IQuestion>{
-        let id = 1//Math.floor(Math.random() * 1); /*Melhorar*/
+        let id = Math.floor(Math.random() * 4) + 1; /*TODO - Melhorar*/
         const url = `${this.API}/${id}`;
         return this.http.get<IQuestion>(url);
     }
