@@ -6,10 +6,10 @@ import { HomeComponent } from "./page/home/home.component";
 
 @Component({
   selector: 'app-root',
-  imports: [ HeaderComponent, FooterComponent, HomeComponent],
+  imports: [ HeaderComponent, HomeComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'sintetiza-frontend';
+  title = 'Sintetize';
 }
