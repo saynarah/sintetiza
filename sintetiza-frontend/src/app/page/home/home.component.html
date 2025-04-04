@@ -1,10 +1,9 @@
 <div class="container">
-
-    <div class="mensages grid grid-cols-2 gap-4 p-10">
-        <app-speech-bubble></app-speech-bubble>
-        <app-reply-bubble></app-reply-bubble>
+    <div class="grid grid-cols-2 gap-4 p-10 mensages">
+        <app-speech-bubble [question]="question"></app-speech-bubble>
+        <app-reply-bubble [question]="question"></app-reply-bubble>
     </div>
     <div class="grid grid-cols-1 gap-4 p-10">
-        <app-input-answer></app-input-answer>
+        <app-input-answer [question]="question"></app-input-answer>
     </div>
 </div>

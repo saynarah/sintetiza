@@ -1,5 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { IQuestion } from '../../interfaces/question.interface';
 
 @Component({
   selector: 'app-speech-bubble',
@@ -9,5 +10,11 @@ import { CommonModule } from '@angular/common';
 })
 export class SpeechBubbleComponent{
 
+  @Input() question: IQuestion = {
+    Id: '',
+    Description: '',
+    DateTime: new Date(),
+    Anwers: []
+  };
 
 }

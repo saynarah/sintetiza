@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { IQuestion } from '../../interfaces/question.interface';
 
 @Component({
   selector: 'app-reply-bubble',
@@ -8,4 +9,11 @@ import { Component } from '@angular/core';
 })
 export class ReplyBubbleComponent {
 
+  @Input() question: IQuestion = {
+    Id: '',
+    Description: '',
+    DateTime: new Date(),
+    Anwers: []
+  };
+  
 }
