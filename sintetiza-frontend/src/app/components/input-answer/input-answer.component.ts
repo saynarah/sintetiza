@@ -13,10 +13,10 @@ import { IAnswer } from '../../interfaces/answer.interface';
 export class InputAnswerComponent {
 
   @Input() question: IQuestion = {
-    Id: '',
-    Description: '',
-    DateTime: new Date(),
-    Anwers: []
+    id: '',
+    description: '',
+    dateTime: new Date(),
+    anwers: []
   };
 
   public word: FormControl = new FormControl('');
@@ -33,20 +33,18 @@ export class InputAnswerComponent {
   }
   
   private saveAnswer(){
-    console.log('questao',this.question);
-
     if(this.words.length == 5){  
       let anwser: IAnswer = {
-        Id: "1",
-        Words: this.words,
-        Actor: 'Teste'
+        id: "1",
+        words: this.words,
+        actor: 'Teste'
       }        
 
-      if (!this.question.Anwers) {
-        this.question.Anwers = [];
+      if (!this.question.anwers) {
+        this.question.anwers = [];
       }
       
-      this.question.Anwers.push(anwser);
+      this.question.anwers.push(anwser);
       this.service.saveWord(this.question);
     }
   }

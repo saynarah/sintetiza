@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, OnChanges, OnInit, SimpleChanges } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { IQuestion } from '../../interfaces/question.interface';
 
@@ -8,13 +8,17 @@ import { IQuestion } from '../../interfaces/question.interface';
   templateUrl: './speech-bubble.component.html',
   styleUrl: './speech-bubble.component.css'
 })
-export class SpeechBubbleComponent{
+export class SpeechBubbleComponent implements OnInit{
 
   @Input() question: IQuestion = {
-    Id: '',
-    Description: '',
-    DateTime: new Date(),
-    Anwers: []
+    id: '',
+    description: '',
+    dateTime: new Date(),
+    anwers: []
   };
+
+  ngOnInit(): void {
+    console.log('pergunta', this.question);
+  }
 
 }

@@ -1,6 +1,6 @@
 
 export interface IAnswer {
-    Id?: string;
-    Words: string[];
-    Actor: string;
+    id?: string;
+    words: string[];
+    actor: string;
 }
