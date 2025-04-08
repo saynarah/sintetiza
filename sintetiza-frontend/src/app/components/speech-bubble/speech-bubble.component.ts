@@ -10,7 +10,7 @@ import { IQuestion } from '../../interfaces/question.interface';
 })
 export class SpeechBubbleComponent {
 
-  @Input() question: IQuestion = {
+  @Input() question?: IQuestion = {
     id: '',
     description: '',
     dateTime: new Date(),
