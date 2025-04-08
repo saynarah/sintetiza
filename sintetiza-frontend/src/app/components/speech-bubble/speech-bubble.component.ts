@@ -8,7 +8,7 @@ import { IQuestion } from '../../interfaces/question.interface';
   templateUrl: './speech-bubble.component.html',
   styleUrl: './speech-bubble.component.css'
 })
-export class SpeechBubbleComponent implements OnInit{
+export class SpeechBubbleComponent {
 
   @Input() question: IQuestion = {
     id: '',
@@ -16,9 +16,5 @@ export class SpeechBubbleComponent implements OnInit{
     dateTime: new Date(),
     anwers: []
   };
-
-  ngOnInit(): void {
-    console.log('pergunta', this.question);
-  }
 
 }

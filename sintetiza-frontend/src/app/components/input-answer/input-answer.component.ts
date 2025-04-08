@@ -1,8 +1,10 @@
+import { BehaviorSubject } from 'rxjs';
 import { Component, Input } from '@angular/core';
 import { FormControl, ReactiveFormsModule, Validators } from '@angular/forms';
 import { IQuestion } from '../../interfaces/question.interface';
 import { SintetizeService } from '../../services/sintetize.service';
 import { IAnswer } from '../../interfaces/answer.interface';
+import { BehaviorSubjectService } from '../../services/behaviorSubject.service';
 
 @Component({
   selector: 'app-input-answer',
@@ -23,13 +25,17 @@ export class InputAnswerComponent {
   public words: string[] = [];
   public limitWord: boolean = false;
 
-  constructor(private service: SintetizeService){}
+  constructor(
+    private service: SintetizeService,
+    private behaviorSubject: BehaviorSubjectService
+  ){}
 
   public saveWord() {
     if(this.word.valid && this.words.length < 5){//todo - adicionar validador especifico e mensagem de erro quando terminar, validar so letras, validar tamanho, validar espaços
       this.words.push(this.word.value);
-      this.word = new FormControl('')
+      this.behaviorSubject.setAnswers(this.word.value);      
       this.saveAnswer();
+      this.word = new FormControl('')
     }
   }
 

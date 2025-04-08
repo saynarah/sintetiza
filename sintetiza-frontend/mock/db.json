@@ -2,7 +2,7 @@
   "questions": [
     {
       "id": "1",
-      "Description": "O que é o amor?",
+      "description": "O que é o amor?",
       "dateTime": "04/04/25",
       "anwers": [
         {
@@ -14,7 +14,7 @@
     },
     {
         "id": "2",
-        "Description": "O que é a felicidade?",
+        "description": "O que é a felicidade?",
         "dateTime": "04/04/25",
         "anwers": [
           {
@@ -26,7 +26,7 @@
     },
     {
         "id": "3",
-        "Description": "Como é a morte?",
+        "description": "Como é a morte?",
         "dateTime": "04/04/25",
         "anwers": [
           {
@@ -38,7 +38,7 @@
     },
     {
         "id": "4",
-        "Description": "Como é nascer?",
+        "description": "Como é nascer?",
         "dateTime": "04/04/25",
         "anwers": [
           {

@@ -2,7 +2,7 @@ import { IQuestion } from './../interfaces/question.interface';
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { url } from 'inspector';
-import { Observable } from 'rxjs';
+import { BehaviorSubject, Observable } from 'rxjs';
 
 @Injectable({
   providedIn: 'root',
@@ -10,6 +10,7 @@ import { Observable } from 'rxjs';
 export class SintetizeService {
 
     private API = "http://localhost:3000/questions";
+
     constructor(private http: HttpClient){}
 
     getQuestionRound() : Observable<IQuestion>{

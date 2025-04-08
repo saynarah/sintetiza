@@ -1,22 +1,24 @@
-import { Component, Input, OnInit } from '@angular/core';
-import { IQuestion } from '../../interfaces/question.interface';
+import { Component, OnInit } from '@angular/core';
+import { BehaviorSubjectService } from '../../services/behaviorSubject.service';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-reply-bubble',
-  imports: [],
+  standalone: true,
+  imports: [CommonModule],
   templateUrl: './reply-bubble.component.html',
   styleUrl: './reply-bubble.component.css',
 })
 export class ReplyBubbleComponent implements OnInit {
 
-  @Input() question: IQuestion = {
-    id: '',
-    description: '',
-    dateTime: new Date(),
-    anwers: []
-  };
+  public words: string[] = [];
+
+  constructor(private wordBehaviorSubject: BehaviorSubjectService) {}
 
   ngOnInit(): void {
-    console.log('resposta', this.question);
+    this.wordBehaviorSubject.getAnswers()
+      .subscribe(word => {
+        this.words.push(word)
+      }); 
   }
 }
