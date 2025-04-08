@@ -1,4 +1,3 @@
-import { BehaviorSubject } from 'rxjs';
 import { Component, Input } from '@angular/core';
 import { FormControl, ReactiveFormsModule, Validators } from '@angular/forms';
 import { IQuestion } from '../../interfaces/question.interface';
@@ -39,12 +38,6 @@ export class InputAnswerComponent {
     }
   }
 
-  public disabledButton(){
-    
-  }
-
-
-  
   private saveAnswer(){
     if(this.words.length == 5){  
       let anwser: IAnswer = {

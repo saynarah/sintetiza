@@ -1,12 +1,19 @@
 <div class="container ml-15">
     <p class="flex justify-center-safe p-5 font-semibold">SUA DEFINICAO</p>
 
-    @if (words.length) {
-        @for(word of words; track $index){
-            <div class="reply-bubble font-semibold text-3xl text-cen mt-10">
-                {{ word }}
-            </div>
-        }
+    @if (words.length > 0) {
+    @for(word of words; track $index){
+    @if (word.trim() !== '') {
+    <div class="reply-bubble font-semibold text-2xl text-cen mt-10">
+        {{ word }}
+    </div>
+    }
+    }
+    }
+    @else {
+    <p class="text-center mt-5 text-gray-500">
+        Nenhuma palavra adicionada ainda.
+    </p>
     }
 
 </div>
