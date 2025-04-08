@@ -1,1 +1,9 @@
-<p>list works!</p>
+<div class="grid-container">
+    @for(question of questions; track $index){
+
+    <div class="card" (click)="abrirModal(question)">
+        <mat-icon aria-hidden="false" aria-label="refresh icon" fontIcon="help_outline"></mat-icon>
+        <h3>{{ question.description }}</h3>
+    </div>
+    }
+</div>
