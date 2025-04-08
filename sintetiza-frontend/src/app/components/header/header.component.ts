@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import {MatIconModule} from '@angular/material/icon';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-header',
@@ -9,5 +10,12 @@ import {MatIconModule} from '@angular/material/icon';
   styleUrl: './header.component.css'
 })
 export class HeaderComponent {
+
+  constructor(private router: Router) {
+  }
+
+  reload() {
+    this.router.navigate(['/home']);
+  }
 
 }
