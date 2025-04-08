@@ -3,7 +3,7 @@ import { FormControl, ReactiveFormsModule, Validators } from '@angular/forms';
 import { IQuestion } from '../../interfaces/question.interface';
 import { SintetizeService } from '../../services/sintetize.service';
 import { IAnswer } from '../../interfaces/answer.interface';
-import { BehaviorSubjectService } from '../../services/behaviorSubject.service';
+import { BehaviorSubjectService } from '../../../app/services/behaviorsubject.service';
 
 @Component({
   selector: 'app-input-answer',

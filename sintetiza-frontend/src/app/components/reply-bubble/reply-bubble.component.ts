@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { BehaviorSubjectService } from '../../services/behaviorSubject.service';
+import { BehaviorSubjectService } from '../../services/behaviorsubject.service';
 import { CommonModule } from '@angular/common';
 
 @Component({
