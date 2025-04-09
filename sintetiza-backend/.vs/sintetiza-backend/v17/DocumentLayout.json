@@ -1,0 +1,147 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\maria\\source\\repos\\sintetiza-backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{44926BFC-5EBA-4624-BFA9-7BEDE85B1B5C}|sintetiza-backend\\sintetiza-backend.csproj|c:\\users\\maria\\source\\repos\\sintetiza-backend\\sintetiza-backend\\sintetizefunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44926BFC-5EBA-4624-BFA9-7BEDE85B1B5C}|sintetiza-backend\\sintetiza-backend.csproj|solutionrelative:sintetiza-backend\\sintetizefunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44926BFC-5EBA-4624-BFA9-7BEDE85B1B5C}|sintetiza-backend\\sintetiza-backend.csproj|c:\\users\\maria\\source\\repos\\sintetiza-backend\\sintetiza-backend\\models\\answer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44926BFC-5EBA-4624-BFA9-7BEDE85B1B5C}|sintetiza-backend\\sintetiza-backend.csproj|solutionrelative:sintetiza-backend\\models\\answer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44926BFC-5EBA-4624-BFA9-7BEDE85B1B5C}|sintetiza-backend\\sintetiza-backend.csproj|c:\\users\\maria\\source\\repos\\sintetiza-backend\\sintetiza-backend\\models\\questions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44926BFC-5EBA-4624-BFA9-7BEDE85B1B5C}|sintetiza-backend\\sintetiza-backend.csproj|solutionrelative:sintetiza-backend\\models\\questions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44926BFC-5EBA-4624-BFA9-7BEDE85B1B5C}|sintetiza-backend\\sintetiza-backend.csproj|c:\\users\\maria\\source\\repos\\sintetiza-backend\\sintetiza-backend\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{44926BFC-5EBA-4624-BFA9-7BEDE85B1B5C}|sintetiza-backend\\sintetiza-backend.csproj|solutionrelative:sintetiza-backend\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44926BFC-5EBA-4624-BFA9-7BEDE85B1B5C}|sintetiza-backend\\sintetiza-backend.csproj|c:\\users\\maria\\source\\repos\\sintetiza-backend\\sintetiza-backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44926BFC-5EBA-4624-BFA9-7BEDE85B1B5C}|sintetiza-backend\\sintetiza-backend.csproj|solutionrelative:sintetiza-backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44926BFC-5EBA-4624-BFA9-7BEDE85B1B5C}|sintetiza-backend\\sintetiza-backend.csproj|c:\\users\\maria\\source\\repos\\sintetiza-backend\\sintetiza-backend\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{44926BFC-5EBA-4624-BFA9-7BEDE85B1B5C}|sintetiza-backend\\sintetiza-backend.csproj|solutionrelative:sintetiza-backend\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44926BFC-5EBA-4624-BFA9-7BEDE85B1B5C}|sintetiza-backend\\sintetiza-backend.csproj|c:\\users\\maria\\source\\repos\\sintetiza-backend\\sintetiza-backend\\properties\\servicedependencies.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{44926BFC-5EBA-4624-BFA9-7BEDE85B1B5C}|sintetiza-backend\\sintetiza-backend.csproj|solutionrelative:sintetiza-backend\\properties\\servicedependencies.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 297,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SintetizeFunction.cs",
+              "DocumentMoniker": "C:\\Users\\maria\\source\\repos\\sintetiza-backend\\sintetiza-backend\\SintetizeFunction.cs",
+              "RelativeDocumentMoniker": "sintetiza-backend\\SintetizeFunction.cs",
+              "ToolTip": "C:\\Users\\maria\\source\\repos\\sintetiza-backend\\sintetiza-backend\\SintetizeFunction.cs",
+              "RelativeToolTip": "sintetiza-backend\\SintetizeFunction.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAxwA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T23:56:19.841Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Questions.cs",
+              "DocumentMoniker": "C:\\Users\\maria\\source\\repos\\sintetiza-backend\\sintetiza-backend\\Models\\Questions.cs",
+              "RelativeDocumentMoniker": "sintetiza-backend\\Models\\Questions.cs",
+              "ToolTip": "C:\\Users\\maria\\source\\repos\\sintetiza-backend\\sintetiza-backend\\Models\\Questions.cs",
+              "RelativeToolTip": "sintetiza-backend\\Models\\Questions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T02:01:21.205Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Answer.cs",
+              "DocumentMoniker": "C:\\Users\\maria\\source\\repos\\sintetiza-backend\\sintetiza-backend\\Models\\Answer.cs",
+              "RelativeDocumentMoniker": "sintetiza-backend\\Models\\Answer.cs",
+              "ToolTip": "C:\\Users\\maria\\source\\repos\\sintetiza-backend\\sintetiza-backend\\Models\\Answer.cs",
+              "RelativeToolTip": "sintetiza-backend\\Models\\Answer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T01:59:22.481Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\maria\\source\\repos\\sintetiza-backend\\sintetiza-backend\\.gitignore",
+              "RelativeDocumentMoniker": "sintetiza-backend\\.gitignore",
+              "ToolTip": "C:\\Users\\maria\\source\\repos\\sintetiza-backend\\sintetiza-backend\\.gitignore",
+              "RelativeToolTip": "sintetiza-backend\\.gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-04-09T00:43:01.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\maria\\source\\repos\\sintetiza-backend\\sintetiza-backend\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "sintetiza-backend\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\maria\\source\\repos\\sintetiza-backend\\sintetiza-backend\\Properties\\launchSettings.json",
+              "RelativeToolTip": "sintetiza-backend\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-09T00:42:29.244Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "serviceDependencies.json",
+              "DocumentMoniker": "C:\\Users\\maria\\source\\repos\\sintetiza-backend\\sintetiza-backend\\Properties\\serviceDependencies.json",
+              "RelativeDocumentMoniker": "sintetiza-backend\\Properties\\serviceDependencies.json",
+              "ToolTip": "C:\\Users\\maria\\source\\repos\\sintetiza-backend\\sintetiza-backend\\Properties\\serviceDependencies.json",
+              "RelativeToolTip": "sintetiza-backend\\Properties\\serviceDependencies.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-09T00:42:25.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\maria\\source\\repos\\sintetiza-backend\\sintetiza-backend\\Program.cs",
+              "RelativeDocumentMoniker": "sintetiza-backend\\Program.cs",
+              "ToolTip": "C:\\Users\\maria\\source\\repos\\sintetiza-backend\\sintetiza-backend\\Program.cs",
+              "RelativeToolTip": "sintetiza-backend\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T00:00:31.514Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

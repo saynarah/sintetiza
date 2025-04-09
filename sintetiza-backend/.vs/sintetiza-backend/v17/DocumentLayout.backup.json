@@ -1,0 +1,45 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\maria\\source\\repos\\sintetiza-backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{44926BFC-5EBA-4624-BFA9-7BEDE85B1B5C}|sintetiza-backend\\sintetiza-backend.csproj|c:\\users\\maria\\source\\repos\\sintetiza-backend\\sintetiza-backend\\function1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44926BFC-5EBA-4624-BFA9-7BEDE85B1B5C}|sintetiza-backend\\sintetiza-backend.csproj|solutionrelative:sintetiza-backend\\function1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 297,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Function1.cs",
+              "DocumentMoniker": "C:\\Users\\maria\\source\\repos\\sintetiza-backend\\sintetiza-backend\\Function1.cs",
+              "RelativeDocumentMoniker": "sintetiza-backend\\Function1.cs",
+              "ToolTip": "C:\\Users\\maria\\source\\repos\\sintetiza-backend\\sintetiza-backend\\Function1.cs",
+              "RelativeToolTip": "sintetiza-backend\\Function1.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T23:56:19.841Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
