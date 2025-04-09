@@ -3,40 +3,56 @@
   "WorkspaceRootPath": "C:\\Users\\maria\\OneDrive\\Documents\\Projetos\\Sintetiza\\sintetiza-backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{44926BFC-5EBA-4624-BFA9-7BEDE85B1B5C}|sintetiza-backend\\sintetize.csproj|c:\\users\\maria\\onedrive\\documents\\projetos\\sintetiza\\sintetiza-backend\\sintetiza-backend\\entities\\questionsentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44926BFC-5EBA-4624-BFA9-7BEDE85B1B5C}|sintetiza-backend\\sintetize.csproj|solutionrelative:sintetiza-backend\\entities\\questionsentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{44926BFC-5EBA-4624-BFA9-7BEDE85B1B5C}|sintetiza-backend\\Sintetize.csproj|c:\\users\\maria\\onedrive\\documents\\projetos\\sintetiza\\sintetiza-backend\\sintetiza-backend\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{44926BFC-5EBA-4624-BFA9-7BEDE85B1B5C}|sintetiza-backend\\Sintetize.csproj|solutionrelative:sintetiza-backend\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{44926BFC-5EBA-4624-BFA9-7BEDE85B1B5C}|sintetiza-backend\\sintetize.csproj|c:\\users\\maria\\onedrive\\documents\\projetos\\sintetiza\\sintetiza-backend\\sintetiza-backend\\local.settings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{44926BFC-5EBA-4624-BFA9-7BEDE85B1B5C}|sintetiza-backend\\sintetize.csproj|solutionrelative:sintetiza-backend\\local.settings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{44926BFC-5EBA-4624-BFA9-7BEDE85B1B5C}|sintetiza-backend\\Sintetize.csproj|c:\\users\\maria\\onedrive\\documents\\projetos\\sintetiza\\sintetiza-backend\\sintetiza-backend\\sintetizefunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44926BFC-5EBA-4624-BFA9-7BEDE85B1B5C}|sintetiza-backend\\Sintetize.csproj|solutionrelative:sintetiza-backend\\sintetizefunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{44926BFC-5EBA-4624-BFA9-7BEDE85B1B5C}|sintetiza-backend\\sintetiza-backend.csproj|c:\\users\\maria\\onedrive\\documents\\projetos\\sintetiza\\sintetiza-backend\\sintetiza-backend\\entities\\answerentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44926BFC-5EBA-4624-BFA9-7BEDE85B1B5C}|sintetiza-backend\\sintetiza-backend.csproj|solutionrelative:sintetiza-backend\\entities\\answerentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{44926BFC-5EBA-4624-BFA9-7BEDE85B1B5C}|sintetiza-backend\\Sintetize.csproj|c:\\users\\maria\\onedrive\\documents\\projetos\\sintetiza\\sintetiza-backend\\sintetiza-backend\\repository\\tablestoragerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44926BFC-5EBA-4624-BFA9-7BEDE85B1B5C}|sintetiza-backend\\Sintetize.csproj|solutionrelative:sintetiza-backend\\repository\\tablestoragerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{44926BFC-5EBA-4624-BFA9-7BEDE85B1B5C}|sintetiza-backend\\sintetiza-backend.csproj|c:\\users\\maria\\onedrive\\documents\\projetos\\sintetiza\\sintetiza-backend\\sintetiza-backend\\sintetizefunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44926BFC-5EBA-4624-BFA9-7BEDE85B1B5C}|sintetiza-backend\\sintetiza-backend.csproj|solutionrelative:sintetiza-backend\\sintetizefunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{44926BFC-5EBA-4624-BFA9-7BEDE85B1B5C}|sintetiza-backend\\Sintetize.csproj|c:\\users\\maria\\onedrive\\documents\\projetos\\sintetiza\\sintetiza-backend\\sintetiza-backend\\service\\questionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44926BFC-5EBA-4624-BFA9-7BEDE85B1B5C}|sintetiza-backend\\Sintetize.csproj|solutionrelative:sintetiza-backend\\service\\questionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{44926BFC-5EBA-4624-BFA9-7BEDE85B1B5C}|sintetiza-backend\\sintetiza-backend.csproj|c:\\users\\maria\\onedrive\\documents\\projetos\\sintetiza\\sintetiza-backend\\sintetiza-backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44926BFC-5EBA-4624-BFA9-7BEDE85B1B5C}|sintetiza-backend\\sintetiza-backend.csproj|solutionrelative:sintetiza-backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{44926BFC-5EBA-4624-BFA9-7BEDE85B1B5C}|sintetiza-backend\\Sintetize.csproj|c:\\users\\maria\\onedrive\\documents\\projetos\\sintetiza\\sintetiza-backend\\sintetiza-backend\\service\\answerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44926BFC-5EBA-4624-BFA9-7BEDE85B1B5C}|sintetiza-backend\\Sintetize.csproj|solutionrelative:sintetiza-backend\\service\\answerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{44926BFC-5EBA-4624-BFA9-7BEDE85B1B5C}|sintetiza-backend\\sintetize.csproj|c:\\users\\maria\\onedrive\\documents\\projetos\\sintetiza\\sintetiza-backend\\sintetiza-backend\\sintetize.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{44926BFC-5EBA-4624-BFA9-7BEDE85B1B5C}|sintetiza-backend\\sintetize.csproj|solutionrelative:sintetiza-backend\\sintetize.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{44926BFC-5EBA-4624-BFA9-7BEDE85B1B5C}|sintetiza-backend\\Sintetize.csproj|c:\\users\\maria\\onedrive\\documents\\projetos\\sintetiza\\sintetiza-backend\\sintetiza-backend\\entities\\questionsentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44926BFC-5EBA-4624-BFA9-7BEDE85B1B5C}|sintetiza-backend\\Sintetize.csproj|solutionrelative:sintetiza-backend\\entities\\questionsentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{44926BFC-5EBA-4624-BFA9-7BEDE85B1B5C}|sintetiza-backend\\sintetiza-backend.csproj|c:\\users\\maria\\onedrive\\documents\\projetos\\sintetiza\\sintetiza-backend\\sintetiza-backend\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{44926BFC-5EBA-4624-BFA9-7BEDE85B1B5C}|sintetiza-backend\\sintetiza-backend.csproj|solutionrelative:sintetiza-backend\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+      "AbsoluteMoniker": "D:0:0:{44926BFC-5EBA-4624-BFA9-7BEDE85B1B5C}|sintetiza-backend\\Sintetize.csproj|c:\\users\\maria\\onedrive\\documents\\projetos\\sintetiza\\sintetiza-backend\\sintetiza-backend\\entities\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44926BFC-5EBA-4624-BFA9-7BEDE85B1B5C}|sintetiza-backend\\Sintetize.csproj|solutionrelative:sintetiza-backend\\entities\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{44926BFC-5EBA-4624-BFA9-7BEDE85B1B5C}|sintetiza-backend\\sintetiza-backend.csproj|c:\\users\\maria\\onedrive\\documents\\projetos\\sintetiza\\sintetiza-backend\\sintetiza-backend\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{44926BFC-5EBA-4624-BFA9-7BEDE85B1B5C}|sintetiza-backend\\sintetiza-backend.csproj|solutionrelative:sintetiza-backend\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{44926BFC-5EBA-4624-BFA9-7BEDE85B1B5C}|sintetiza-backend\\Sintetize.csproj|c:\\users\\maria\\onedrive\\documents\\projetos\\sintetiza\\sintetiza-backend\\sintetiza-backend\\entities\\answerentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44926BFC-5EBA-4624-BFA9-7BEDE85B1B5C}|sintetiza-backend\\Sintetize.csproj|solutionrelative:sintetiza-backend\\entities\\answerentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{44926BFC-5EBA-4624-BFA9-7BEDE85B1B5C}|sintetiza-backend\\sintetiza-backend.csproj|c:\\users\\maria\\onedrive\\documents\\projetos\\sintetiza\\sintetiza-backend\\sintetiza-backend\\properties\\servicedependencies.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{44926BFC-5EBA-4624-BFA9-7BEDE85B1B5C}|sintetiza-backend\\sintetiza-backend.csproj|solutionrelative:sintetiza-backend\\properties\\servicedependencies.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{44926BFC-5EBA-4624-BFA9-7BEDE85B1B5C}|sintetiza-backend\\Sintetize.csproj|c:\\users\\maria\\onedrive\\documents\\projetos\\sintetiza\\sintetiza-backend\\sintetiza-backend\\local.settings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{44926BFC-5EBA-4624-BFA9-7BEDE85B1B5C}|sintetiza-backend\\Sintetize.csproj|solutionrelative:sintetiza-backend\\local.settings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44926BFC-5EBA-4624-BFA9-7BEDE85B1B5C}|sintetiza-backend\\Sintetize.csproj|c:\\users\\maria\\onedrive\\documents\\projetos\\sintetiza\\sintetiza-backend\\sintetiza-backend\\sintetize.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{44926BFC-5EBA-4624-BFA9-7BEDE85B1B5C}|sintetiza-backend\\Sintetize.csproj|solutionrelative:sintetiza-backend\\sintetize.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44926BFC-5EBA-4624-BFA9-7BEDE85B1B5C}|sintetiza-backend\\Sintetize.csproj|c:\\users\\maria\\onedrive\\documents\\projetos\\sintetiza\\sintetiza-backend\\sintetiza-backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44926BFC-5EBA-4624-BFA9-7BEDE85B1B5C}|sintetiza-backend\\Sintetize.csproj|solutionrelative:sintetiza-backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44926BFC-5EBA-4624-BFA9-7BEDE85B1B5C}|sintetiza-backend\\Sintetize.csproj|c:\\users\\maria\\onedrive\\documents\\projetos\\sintetiza\\sintetiza-backend\\sintetiza-backend\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{44926BFC-5EBA-4624-BFA9-7BEDE85B1B5C}|sintetiza-backend\\Sintetize.csproj|solutionrelative:sintetiza-backend\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44926BFC-5EBA-4624-BFA9-7BEDE85B1B5C}|sintetiza-backend\\Sintetize.csproj|c:\\users\\maria\\onedrive\\documents\\projetos\\sintetiza\\sintetiza-backend\\sintetiza-backend\\properties\\servicedependencies.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{44926BFC-5EBA-4624-BFA9-7BEDE85B1B5C}|sintetiza-backend\\Sintetize.csproj|solutionrelative:sintetiza-backend\\properties\\servicedependencies.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,7 +62,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 297,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,20 +70,98 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
+              "Title": "QuestionService.cs",
+              "DocumentMoniker": "C:\\Users\\maria\\OneDrive\\Documents\\Projetos\\Sintetiza\\sintetiza-backend\\sintetiza-backend\\Service\\QuestionService.cs",
+              "RelativeDocumentMoniker": "sintetiza-backend\\Service\\QuestionService.cs",
+              "ToolTip": "C:\\Users\\maria\\OneDrive\\Documents\\Projetos\\Sintetiza\\sintetiza-backend\\sintetiza-backend\\Service\\QuestionService.cs",
+              "RelativeToolTip": "sintetiza-backend\\Service\\QuestionService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T02:33:34.023Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TableStorageRepository.cs",
+              "DocumentMoniker": "C:\\Users\\maria\\OneDrive\\Documents\\Projetos\\Sintetiza\\sintetiza-backend\\sintetiza-backend\\Repository\\TableStorageRepository.cs",
+              "RelativeDocumentMoniker": "sintetiza-backend\\Repository\\TableStorageRepository.cs",
+              "ToolTip": "C:\\Users\\maria\\OneDrive\\Documents\\Projetos\\Sintetiza\\sintetiza-backend\\sintetiza-backend\\Repository\\TableStorageRepository.cs",
+              "RelativeToolTip": "sintetiza-backend\\Repository\\TableStorageRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T02:28:46.699Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SintetizeFunction.cs",
+              "DocumentMoniker": "C:\\Users\\maria\\OneDrive\\Documents\\Projetos\\Sintetiza\\sintetiza-backend\\sintetiza-backend\\SintetizeFunction.cs",
+              "RelativeDocumentMoniker": "sintetiza-backend\\SintetizeFunction.cs",
+              "ToolTip": "C:\\Users\\maria\\OneDrive\\Documents\\Projetos\\Sintetiza\\sintetiza-backend\\sintetiza-backend\\SintetizeFunction.cs",
+              "RelativeToolTip": "sintetiza-backend\\SintetizeFunction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T23:56:19.841Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AnswerService.cs",
+              "DocumentMoniker": "C:\\Users\\maria\\OneDrive\\Documents\\Projetos\\Sintetiza\\sintetiza-backend\\sintetiza-backend\\Service\\AnswerService.cs",
+              "RelativeDocumentMoniker": "sintetiza-backend\\Service\\AnswerService.cs",
+              "ToolTip": "C:\\Users\\maria\\OneDrive\\Documents\\Projetos\\Sintetiza\\sintetiza-backend\\sintetiza-backend\\Service\\AnswerService.cs",
+              "RelativeToolTip": "sintetiza-backend\\Service\\AnswerService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T02:43:10.787Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "C:\\Users\\maria\\OneDrive\\Documents\\Projetos\\Sintetiza\\sintetiza-backend\\sintetiza-backend\\Entities\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "sintetiza-backend\\Entities\\BaseEntity.cs",
+              "ToolTip": "C:\\Users\\maria\\OneDrive\\Documents\\Projetos\\Sintetiza\\sintetiza-backend\\sintetiza-backend\\Entities\\BaseEntity.cs",
+              "RelativeToolTip": "sintetiza-backend\\Entities\\BaseEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T02:32:13.372Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AnswerEntity.cs",
+              "DocumentMoniker": "C:\\Users\\maria\\OneDrive\\Documents\\Projetos\\Sintetiza\\sintetiza-backend\\sintetiza-backend\\Entities\\AnswerEntity.cs",
+              "RelativeDocumentMoniker": "sintetiza-backend\\Entities\\AnswerEntity.cs",
+              "ToolTip": "C:\\Users\\maria\\OneDrive\\Documents\\Projetos\\Sintetiza\\sintetiza-backend\\sintetiza-backend\\Entities\\AnswerEntity.cs",
+              "RelativeToolTip": "sintetiza-backend\\Entities\\AnswerEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T02:17:13.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "QuestionsEntity.cs",
               "DocumentMoniker": "C:\\Users\\maria\\OneDrive\\Documents\\Projetos\\Sintetiza\\sintetiza-backend\\sintetiza-backend\\Entities\\QuestionsEntity.cs",
               "RelativeDocumentMoniker": "sintetiza-backend\\Entities\\QuestionsEntity.cs",
               "ToolTip": "C:\\Users\\maria\\OneDrive\\Documents\\Projetos\\Sintetiza\\sintetiza-backend\\sintetiza-backend\\Entities\\QuestionsEntity.cs",
               "RelativeToolTip": "sintetiza-backend\\Entities\\QuestionsEntity.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-09T02:23:02.447Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "local.settings.json",
               "DocumentMoniker": "C:\\Users\\maria\\OneDrive\\Documents\\Projetos\\Sintetiza\\sintetiza-backend\\sintetiza-backend\\local.settings.json",
               "RelativeDocumentMoniker": "sintetiza-backend\\local.settings.json",
@@ -75,25 +169,11 @@
               "RelativeToolTip": "sintetiza-backend\\local.settings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-09T02:21:32.094Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-09T02:21:32.094Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AnswerEntity.cs",
-              "DocumentMoniker": "C:\\Users\\maria\\OneDrive\\Documents\\Projetos\\Sintetiza\\sintetiza-backend\\sintetiza-backend\\Entities\\AnswerEntity.cs",
-              "RelativeDocumentMoniker": "sintetiza-backend\\Entities\\AnswerEntity.cs",
-              "ToolTip": "C:\\Users\\maria\\OneDrive\\Documents\\Projetos\\Sintetiza\\sintetiza-backend\\sintetiza-backend\\Entities\\AnswerEntity.cs",
-              "RelativeToolTip": "sintetiza-backend\\Entities\\AnswerEntity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T02:17:13.424Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\maria\\OneDrive\\Documents\\Projetos\\Sintetiza\\sintetiza-backend\\sintetiza-backend\\Program.cs",
               "RelativeDocumentMoniker": "sintetiza-backend\\Program.cs",
@@ -101,33 +181,19 @@
               "RelativeToolTip": "sintetiza-backend\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T00:00:31.514Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-09T00:00:31.514Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "SintetizeFunction.cs",
-              "DocumentMoniker": "C:\\Users\\maria\\OneDrive\\Documents\\Projetos\\Sintetiza\\sintetiza-backend\\sintetiza-backend\\SintetizeFunction.cs",
-              "RelativeDocumentMoniker": "sintetiza-backend\\SintetizeFunction.cs",
-              "ToolTip": "C:\\Users\\maria\\OneDrive\\Documents\\Projetos\\Sintetiza\\sintetiza-backend\\sintetiza-backend\\SintetizeFunction.cs",
-              "RelativeToolTip": "sintetiza-backend\\SintetizeFunction.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAAABoAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T23:56:19.841Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Sintetize.csproj",
-              "DocumentMoniker": "C:\\Users\\maria\\OneDrive\\Documents\\Projetos\\Sintetiza\\sintetiza-backend\\sintetiza-backend\\Sintetize.csproj",
-              "RelativeDocumentMoniker": "sintetiza-backend\\Sintetize.csproj",
-              "ToolTip": "C:\\Users\\maria\\OneDrive\\Documents\\Projetos\\Sintetiza\\sintetiza-backend\\sintetiza-backend\\Sintetize.csproj",
-              "RelativeToolTip": "sintetiza-backend\\Sintetize.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-04-09T02:20:26.04Z",
+              "DocumentIndex": 0,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\maria\\OneDrive\\Documents\\Projetos\\Sintetiza\\sintetiza-backend\\sintetiza-backend\\.gitignore",
+              "RelativeDocumentMoniker": "sintetiza-backend\\.gitignore",
+              "ToolTip": "C:\\Users\\maria\\OneDrive\\Documents\\Projetos\\Sintetiza\\sintetiza-backend\\sintetiza-backend\\.gitignore",
+              "RelativeToolTip": "sintetiza-backend\\.gitignore",
+              "ViewState": "AgIAANAAAAAAAAAAAAAwwOYAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-04-09T00:43:01.176Z",
               "EditorCaption": ""
             },
             {
@@ -136,20 +202,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": ".gitignore",
-              "DocumentMoniker": "C:\\Users\\maria\\OneDrive\\Documents\\Projetos\\Sintetiza\\sintetiza-backend\\sintetiza-backend\\.gitignore",
-              "RelativeDocumentMoniker": "sintetiza-backend\\.gitignore",
-              "ToolTip": "C:\\Users\\maria\\OneDrive\\Documents\\Projetos\\Sintetiza\\sintetiza-backend\\sintetiza-backend\\.gitignore",
-              "RelativeToolTip": "sintetiza-backend\\.gitignore",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-04-09T00:43:01.176Z",
-              "EditorCaption": ""
+              "DocumentIndex": 9,
+              "Title": "Sintetize.csproj",
+              "DocumentMoniker": "C:\\Users\\maria\\OneDrive\\Documents\\Projetos\\Sintetiza\\sintetiza-backend\\sintetiza-backend\\Sintetize.csproj",
+              "RelativeDocumentMoniker": "sintetiza-backend\\Sintetize.csproj",
+              "ToolTip": "C:\\Users\\maria\\OneDrive\\Documents\\Projetos\\Sintetiza\\sintetiza-backend\\sintetiza-backend\\Sintetize.csproj",
+              "RelativeToolTip": "sintetiza-backend\\Sintetize.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-09T02:20:26.04Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\maria\\OneDrive\\Documents\\Projetos\\Sintetiza\\sintetiza-backend\\sintetiza-backend\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "sintetiza-backend\\Properties\\launchSettings.json",
@@ -157,12 +222,11 @@
               "RelativeToolTip": "sintetiza-backend\\Properties\\launchSettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-09T00:42:29.244Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-09T00:42:29.244Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "serviceDependencies.json",
               "DocumentMoniker": "C:\\Users\\maria\\OneDrive\\Documents\\Projetos\\Sintetiza\\sintetiza-backend\\sintetiza-backend\\Properties\\serviceDependencies.json",
               "RelativeDocumentMoniker": "sintetiza-backend\\Properties\\serviceDependencies.json",
@@ -170,8 +234,7 @@
               "RelativeToolTip": "sintetiza-backend\\Properties\\serviceDependencies.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-09T00:42:25.238Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-09T00:42:25.238Z"
             }
           ]
         }

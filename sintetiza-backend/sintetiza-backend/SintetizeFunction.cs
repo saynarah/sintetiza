@@ -1,38 +1,28 @@
 using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.Azure.Functions.Worker;
+using Microsoft.Azure.Functions.Worker.Http;
 using Microsoft.Extensions.Logging;
-using System.ComponentModel.DataAnnotations.Schema;
+using sintetiza_backend.Repository;
+using System.Net;
+using System.Text.Json;
 
 namespace sintetize;
 
-public class SintetizeFunction
+public class SintetizeFunction(
+    ILogger<SintetizeFunction> logger,
+    QuestionService service)
 {
-    private readonly ILogger<SintetizeFunction> _logger;
 
-    public SintetizeFunction(ILogger<SintetizeFunction> logger)
+    [Function("CreateQuestion")]
+    public async Task<HttpResponseData> CreateAsync([HttpTrigger(AuthorizationLevel.Function, "post")] HttpRequestData req)
     {
-        _logger = logger;
+        var data = await JsonSerializer.DeserializeAsync<QuestionEntity>(req.Body);
+        await service.CreateAync(data);
+
+        var response = req.CreateResponse(HttpStatusCode.Created);
+        await response.WriteAsJsonAsync(data);
+        return response;
     }
-
-    //[Function("GetQuestions")]
-    //public async Task<IActionResult> GetQuestions(
-    //    [HttpTrigger(AuthorizationLevel.Function, "get", Route = "question")] HttpRequest req,
-    //    [Table("Questions", Connection = "AzureWebJobsStorage")] CloudTable questionTable)
-    //{
-    //    _logger.LogInformation("Getting all questions...");
-
-    //    var query = new TableQuery<IQuestionEntity>().Where(TableQuery.GenerateFilterCondition("PartitionKey", QueryComparisons.Equal, "question"));
-    //    var segment = await questionTable.ExecuteQuerySegmentedAsync(query, null);
-    //    var results = segment.Results.Select(q => new IQuestion
-    //    {
-    //        Id = q.RowKey,
-    //        Pergunta = q.Pergunta,
-    //        DataCriacao = q.DataCriacao
-    //    });
-
-    //    return new OkObjectResult(results);
-    //}
 
     //[Function("CreateQuestion")]
     //public async Task<IActionResult> CreateQuestion(
