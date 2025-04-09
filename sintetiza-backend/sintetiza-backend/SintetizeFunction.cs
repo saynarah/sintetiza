@@ -4,7 +4,7 @@ using Microsoft.Azure.Functions.Worker;
 using Microsoft.Extensions.Logging;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace sintetiza_backend;
+namespace sintetize;
 
 public class SintetizeFunction
 {
