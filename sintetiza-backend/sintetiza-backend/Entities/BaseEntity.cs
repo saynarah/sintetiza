@@ -1,6 +1,5 @@
 ﻿using Azure;
 using Azure.Data.Tables;
-using sintetize.Models;
 
 public class BaseEntity : ITableEntity
 {
