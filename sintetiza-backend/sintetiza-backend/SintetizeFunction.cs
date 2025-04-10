@@ -21,27 +21,22 @@ public class SintetizeFunction(
 
         var response = req.CreateResponse(HttpStatusCode.Created);
         await response.WriteAsJsonAsync(data);
+        logger.LogInformation("Creating new question...", data);
         return response;
     }
 
-    //[Function("CreateQuestion")]
-    //public async Task<IActionResult> CreateQuestion(
-    //    [HttpTrigger(AuthorizationLevel.Function, "post", Route = "question")] HttpRequest req,
-    //    [Table("Questions", Connection = "AzureWebJobsStorage")] IAsyncCollector<IQuestionEntity> outputTable)
-    //{
-    //    _logger.LogInformation("Creating new question...");
+    [Function("GetQuestion")]
+    public async Task<HttpResponseData> GetQuestion(
+        [HttpTrigger(AuthorizationLevel.Function, "get", Route = "question")] HttpRequestData req)
+    {
+        logger.LogInformation("Get question...");
+        var questions = await service.GetAllAsync();
 
-    //    string requestBody = await new StreamReader(req.Body).ReadToEndAsync();
-    //    var data = JsonConvert.DeserializeObject<IQuestion>(requestBody);
-
-    //    if (string.IsNullOrWhiteSpace(data.Pergunta))
-    //        return new BadRequestObjectResult("Pergunta é obrigatória.");
-
-    //    var entity = new IQuestionEntity(Guid.NewGuid().ToString(), data.Pergunta);
-    //    await outputTable.AddAsync(entity);
-
-    //    return new OkObjectResult("Pergunta adicionada com sucesso.");
-    //}
+        var response = req.CreateResponse(HttpStatusCode.OK);
+        await response.WriteAsJsonAsync(questions);
+        logger.LogInformation("Creating new question...", response);
+        return response;
+    }
 
     //[Function("DeleteQuestion")]
     //public async Task<IActionResult> DeleteQuestion(
