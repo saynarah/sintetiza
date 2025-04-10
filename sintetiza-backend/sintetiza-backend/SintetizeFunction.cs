@@ -1,3 +1,4 @@
+using Azure.Data.Tables;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Azure.Functions.Worker;
 using Microsoft.Azure.Functions.Worker.Http;
@@ -58,4 +59,16 @@ public class SintetizeFunction(SintetizeService service)
         return response;
     }
 
+    [Function("DeleteQuestion")]
+    public async Task<HttpResponseData> DeleteQuestionAsync([HttpTrigger(AuthorizationLevel.Function, "delete", Route = "DeleteQuestion/{partitionKey}/{rowKey}")] HttpRequestData request,
+        string partitionKey,
+        string rowKey)
+    {
+
+        await service.DeleteQuestionAsync(partitionKey, rowKey);
+        var response = request.CreateResponse(HttpStatusCode.NoContent);
+
+        return response;
+
+    }
 }

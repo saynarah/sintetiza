@@ -45,4 +45,9 @@ public class SintetizeService
         await _answeRepository.AddAsync(entity);
     }
 
+    public async Task DeleteQuestionAsync(string partitionKey, string rowKey)
+    {
+        await _questionRepository.DeleteAsync(partitionKey, rowKey);
+    }
+
 }
