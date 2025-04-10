@@ -1,16 +1,24 @@
-﻿using Azure.Data.Tables;
-using Microsoft.Extensions.Configuration;
+﻿using Microsoft.Extensions.Configuration;
+using sintetize.Models;
 
 namespace sintetiza_backend.Repository;
 
-public class SintetizeService 
+public class AnswerService
 {
-    private readonly TableClient _tableClient;
+    private readonly TableStorageRepository<AnswerEntity> _repository;
 
-    public SintetizeService(IConfiguration configuration)
+    public AnswerService(IConfiguration configuration)
     {
-        var connection = configuration["StorageConnectionString"];
-        _tableClient = new TableClient(connection, "Questions");
-        _tableClient.CreateIfNotExists();
+        _repository = new TableStorageRepository<AnswerEntity>(configuration, "Answers");
+    }
+
+    public async Task<List<AnswerEntity>> GetAllAsync()
+    {
+        return await _repository.GetAllAsync();
+    }
+
+    public async Task CreateAync(AnswerEntity entity)
+    {
+        await _repository.AddAsync(entity);
     }
 }
