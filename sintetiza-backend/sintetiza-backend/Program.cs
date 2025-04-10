@@ -9,7 +9,8 @@ var host = new HostBuilder()
     {
         services.AddApplicationInsightsTelemetryWorkerService();
         services.ConfigureFunctionsApplicationInsights();
-        services.AddSingleton<QuestionService>();
+        services.AddSingleton<SintetizeService>();
+        services.AddSingleton<sintetiza_backend.Repository.SintetizeConvert>();
         services.AddSingleton<TableStorageRepository<QuestionEntity>>();
     })
     .Build();
