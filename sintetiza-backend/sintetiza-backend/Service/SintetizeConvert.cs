@@ -11,7 +11,7 @@ public class SintetizeConvert
             RowKey: entity.RowKey,
             Description: entity.Description,
             Date: entity.Date,
-            Answers: entity.Answers.Select(ConvertAnswerForesponse));
+            Answers: entity.Answers.Select(ConvertAnswerForResponse));
     }
 
     public AnswerResponse ConvertAnswerForResponse(AnswerEntity entity)

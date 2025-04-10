@@ -6,6 +6,9 @@ public class AnswerEntity: BaseEntity
     public string Id { get; set; }
     public IEnumerable<string> Words { get; set; }
     public string Actor { get; set; } = "anonymous";
+    public AnswerEntity()
+    {
+    }
     public AnswerEntity(
         string id,
         string partitionKey,
@@ -17,4 +20,5 @@ public class AnswerEntity: BaseEntity
         Words = words;
         Actor = actor;
     }
+
 }

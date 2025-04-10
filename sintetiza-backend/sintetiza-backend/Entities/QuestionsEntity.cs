@@ -7,6 +7,9 @@ public class QuestionEntity : BaseEntity
     public string Description { get; set; }
     public DateTime Date { get; set; } = DateTime.Now;
     public IEnumerable<AnswerEntity> Answers { get; set; }
+    public QuestionEntity()
+    {
+    }
     public QuestionEntity(
         string id, 
         string description, 
@@ -16,4 +19,5 @@ public class QuestionEntity : BaseEntity
         Description = description;
         Date = date;
     }
+
 }
