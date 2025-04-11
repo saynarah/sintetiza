@@ -26,7 +26,6 @@ export class HeaderComponent {
   }
   
   openRules() {
-    console.log('open')
     this.dialog.open(RulesModalComponent, {
       width: '400px',
       disableClose: true,

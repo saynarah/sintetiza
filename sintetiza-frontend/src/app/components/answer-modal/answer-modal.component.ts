@@ -21,7 +21,5 @@ export class AnswerModalComponent implements OnInit{
 
   constructor(private matdialog: MatDialog) { }
 
-  ngOnInit(): void {
-    console.log('question', this.question)
-  }
+  ngOnInit(): void {}
 }
