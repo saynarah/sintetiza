@@ -38,6 +38,9 @@ public class SintetizeService
             entity = await _questionRepository.GetAsync("aNS", questionId);
         }
 
+        var list = await _answeRepository.GetAllAsync();
+        entity.Answers = list.Where(x => x.PartitionKey == entity.RowKey).ToList();
+
         return _convert.ConvertQuestionForResponse(entity);
     }
 

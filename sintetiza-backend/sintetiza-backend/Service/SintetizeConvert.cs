@@ -11,7 +11,7 @@ public class SintetizeConvert
             id: entity.Id,
             rowKey: entity.RowKey,
             description: entity.Description,
-            answers: entity.Answers?.Select(ConvertAnswerForResponse).ToList());
+            anwers: entity.Answers?.Select(ConvertAnswerForResponse).ToList());
     }
 
     public AnswerResponse ConvertAnswerForResponse(AnswerEntity entity)
@@ -33,7 +33,7 @@ public class SintetizeConvert
 
         if (entity.Answers == null || !entity.Answers.Any()) return entity;
 
-        entity.Answers = response.answers.Select(x => ConvertAnswerForEntity(x, entity.RowKey));
+        entity.Answers = response.anwers.Select(x => ConvertAnswerForEntity(x, entity.RowKey));
 
         return entity;
     }

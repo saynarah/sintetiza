@@ -1,9 +1,9 @@
 import { IAnswer } from './../interfaces/answer.interface';
 import { IQuestion } from './../interfaces/question.interface';
-import { HttpClient, HttpHeaders } from '@angular/common/http';
+import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { url } from 'inspector';
-import { BehaviorSubject, Observable } from 'rxjs';
+import { Observable } from 'rxjs';
+import axios from 'axios';
 
 @Injectable({
   providedIn: 'root',
@@ -25,11 +25,16 @@ export class SintetizeService {
         return this.http.get<IQuestion[]>(url);
     }
     
-    saveWord(answer: IAnswer) : Observable<any>{
-        console.log('chamou', answer)
+    saveWord(answer: IAnswer){
         const url = `${this.API}/CreateAnswer`;
-        console.log('url', url)
-        const headers = new HttpHeaders({ 'Content-Type': 'application/json' });
-        return this.http.post<any>(url, answer, { headers });
+        
+        axios.post(url, answer)
+        .then(response => {
+          response = response.data;
+          console.log('Salvo com sucesso:', response.data);
+        })
+        .catch(error => {
+          console.error('Erro na requisição:', error);
+        });
     }
 }

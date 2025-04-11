@@ -4,4 +4,4 @@ public record QuestionResponse(
     string id,
     string rowKey,
     string description,
-    IEnumerable<AnswerResponse> answers);
+    IEnumerable<AnswerResponse> anwers);
