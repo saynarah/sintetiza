@@ -1,5 +1,6 @@
 ﻿using Microsoft.Extensions.Configuration;
 using sintetize.Models;
+using static Grpc.Core.Metadata;
 
 namespace sintetiza_backend.Repository;
 
@@ -11,8 +12,8 @@ public class SintetizeService
 
     public SintetizeService(IConfiguration configuration, SintetizeConvert convert)
     {
-        _questionRepository = new TableStorageRepository<QuestionEntity>(configuration, "Questions");
-        _answeRepository = new TableStorageRepository<AnswerEntity>(configuration, "Answers");
+        _questionRepository = new TableStorageRepository<QuestionEntity>(configuration, "QuestionSintetize");
+        _answeRepository = new TableStorageRepository<AnswerEntity>(configuration, "AnswerSintetize");
         _convert = convert;
     }
 
@@ -35,8 +36,9 @@ public class SintetizeService
         var questionEntity = _convert.ConvertQuestionForEntity(response);
         await _questionRepository.AddAsync(questionEntity);
 
-        questionEntity.Answers.Select(_answeRepository.AddAsync);
+        if (questionEntity.Answers == null || !questionEntity.Answers.Any()) return;
 
+        questionEntity.Answers.Select(_answeRepository.AddAsync);
     }
 
     public async Task CreateAnswerAync(AnswerResponse response)

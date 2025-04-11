@@ -3,5 +3,5 @@
 public record AnswerResponse(
     string Id,
     string? QuestionPartitionKey,
-    IEnumerable<string> Words,
+    string[] Words,
     string Actor);

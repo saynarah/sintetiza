@@ -1,4 +1,5 @@
-﻿using sintetize.Models;
+﻿using Microsoft.Identity.Client;
+using sintetize.Models;
 
 namespace sintetiza_backend.Repository;
 
@@ -10,16 +11,17 @@ public class SintetizeConvert
             Id: entity.Id,
             RowKey: entity.RowKey,
             Description: entity.Description,
-            Date: entity.Date,
-            Answers: entity.Answers.Select(ConvertAnswerForResponse));
+            Answers: entity.Answers?.Select(ConvertAnswerForResponse).ToList());
     }
 
     public AnswerResponse ConvertAnswerForResponse(AnswerEntity entity)
     {
+        string[] words = [entity.Word1, entity.Word2, entity.Word3, entity.Word4, entity.Word5];
+
         return new AnswerResponse(
             Id: entity.Id,
             QuestionPartitionKey: entity.PartitionKey,
-            Words: entity.Words,
+            Words: words,
             Actor: entity.Actor);
     }
 
@@ -27,8 +29,9 @@ public class SintetizeConvert
     {
         var entity = new QuestionEntity(
             id: response.Id,
-            description: response.Description,
-            date: response.Date);
+            description: response.Description);
+
+        if (entity.Answers == null || !entity.Answers.Any()) return entity;
 
         entity.Answers = response.Answers.Select(x => ConvertAnswerForEntity(x, entity.RowKey));
 
@@ -40,7 +43,11 @@ public class SintetizeConvert
         return new AnswerEntity(
             id: response.Id,
             partitionKey: questionPartitionKey,
-            words: response.Words,
+            word1: response.Words[0],
+            word2: response.Words[1],
+            word3: response.Words[2],
+            word4: response.Words[3],
+            word5: response.Words[4],
             actor: response.Actor);
     }
 
@@ -49,7 +56,11 @@ public class SintetizeConvert
         return new AnswerEntity(
             id: response.Id,
             partitionKey: response.QuestionPartitionKey,
-            words: response.Words,
+            word1: response.Words[0],
+            word2: response.Words[1],
+            word3: response.Words[2],
+            word4: response.Words[3],
+            word5: response.Words[4],
             actor: response.Actor);
     }
 }
