@@ -16,7 +16,9 @@ export class HomeComponent{
   public question!: IQuestion;
 
   constructor(private service: SintetizeService) {
-    this.service.getQuestionRound().subscribe(question => {this.question = question});
+    this.service.getQuestionRound().subscribe(question => {
+      console.log('construtor',question);
+      this.question = question});
   }
 
 }

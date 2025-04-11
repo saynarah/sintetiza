@@ -14,8 +14,8 @@ export class AnswerModalComponent implements OnInit{
 
   @Input() question: IQuestion = {
       id: '',
+      rowKey: '',
       description: '',
-      dateTime: new Date(),
       anwers: []
     };
 

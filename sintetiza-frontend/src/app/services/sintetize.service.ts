@@ -1,5 +1,6 @@
+import { IAnswer } from './../interfaces/answer.interface';
 import { IQuestion } from './../interfaces/question.interface';
-import { HttpClient } from '@angular/common/http';
+import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { url } from 'inspector';
 import { BehaviorSubject, Observable } from 'rxjs';
@@ -9,21 +10,26 @@ import { BehaviorSubject, Observable } from 'rxjs';
 })
 export class SintetizeService {
 
-    private API = "http://localhost:3000/questions";
+    private API = "http://localhost:7034/api";
 
     constructor(private http: HttpClient){}
 
     getQuestionRound() : Observable<IQuestion>{
-        let id = Math.floor(Math.random() * 4) + 1; /*TODO - Melhorar*/
-        const url = `${this.API}/${id}`;
+        let id = 1;
+        const url = `${this.API}/GetQuestion/${id}`;
         return this.http.get<IQuestion>(url);
     }
-
+    
     getQuestions() : Observable<IQuestion[]>{
-        return this.http.get<IQuestion[]>(this.API);
+        const url = `${this.API}/GetAllQuestion`;
+        return this.http.get<IQuestion[]>(url);
     }
-
-    saveWord(question: IQuestion) : Observable<IQuestion>{
-        return this.http.put<IQuestion>(this.API, question);
+    
+    saveWord(answer: IAnswer) : Observable<any>{
+        console.log('chamou', answer)
+        const url = `${this.API}/CreateAnswer`;
+        console.log('url', url)
+        const headers = new HttpHeaders({ 'Content-Type': 'application/json' });
+        return this.http.post<any>(url, answer, { headers });
     }
 }

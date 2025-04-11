@@ -12,8 +12,8 @@ export class SpeechBubbleComponent {
 
   @Input() question?: IQuestion = {
     id: '',
+    rowKey: '',
     description: '',
-    dateTime: new Date(),
     anwers: []
   };
 
