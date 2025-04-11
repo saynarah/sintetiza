@@ -3,6 +3,7 @@
   <ul>
     @for (answer of question.anwers; track $index){
         <li> {{ answer.words.join(', ') }}</li>
+        <br>
     }
   </ul>
 </mat-dialog-content>

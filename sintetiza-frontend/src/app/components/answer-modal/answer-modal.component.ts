@@ -1,5 +1,5 @@
 import { MatDialog, MatDialogModule } from '@angular/material/dialog';
-import { Component, Input, input, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { IQuestion } from '../../interfaces/question.interface';
 import { MatButtonModule } from '@angular/material/button';
