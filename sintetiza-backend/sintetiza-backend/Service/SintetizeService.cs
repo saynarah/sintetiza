@@ -1,6 +1,5 @@
 ﻿using Microsoft.Extensions.Configuration;
 using sintetize.Models;
-using static Grpc.Core.Metadata;
 
 namespace sintetiza_backend.Repository;
 
@@ -20,6 +19,12 @@ public class SintetizeService
     public async Task<List<QuestionResponse>> GetAllQuestionAsync()
     {
         var entities = await _questionRepository.GetAllAsync();
+
+        foreach (var entity in entities)
+        {
+            var list = await _answeRepository.GetAllAsync();
+            entity.Answers = list.Where(x => x.PartitionKey == entity.RowKey).ToList();
+        }
 
         return entities.Select(_convert.ConvertQuestionForResponse).ToList();
     }
