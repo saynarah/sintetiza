@@ -10,7 +10,7 @@ import axios from 'axios';
 })
 export class SintetizeService {
 
-    private API = "http://localhost:7034/api";
+    private API = "https://sintetize20250409230156.azurewebsites.net/api"//"http://localhost:7034/api";
 
     constructor(private http: HttpClient){}
 
