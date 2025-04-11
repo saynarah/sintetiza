@@ -13,7 +13,7 @@ public class SintetizeFunction(SintetizeService service)
 {
     [Function("GetAllQuestion")]
     public async Task<HttpResponseData> GetAllQuestion(
-    [HttpTrigger(AuthorizationLevel.Function, "get")] HttpRequestData request)
+    [HttpTrigger(AuthorizationLevel.Anonymous, "get")] HttpRequestData request)
     {
         var questions = await service.GetAllQuestionAsync();
 
@@ -25,7 +25,7 @@ public class SintetizeFunction(SintetizeService service)
 
     [Function("GetQuestion")]
     public async Task<HttpResponseData> GetQuestion(
-    [HttpTrigger(AuthorizationLevel.Function, "get", Route = "GetQuestion/{id}")] HttpRequestData request, string id)
+    [HttpTrigger(AuthorizationLevel.Anonymous, "get", Route = "GetQuestion/{id}")] HttpRequestData request, string id)
     {
         var questions = await service.GetQuestionAsync(id);
 
@@ -36,7 +36,7 @@ public class SintetizeFunction(SintetizeService service)
     }
 
     [Function("CreateQuestion")]
-    public async Task<HttpResponseData> CreateQuestionAsync([HttpTrigger(AuthorizationLevel.Function, "post")] HttpRequestData request)
+    public async Task<HttpResponseData> CreateQuestionAsync([HttpTrigger(AuthorizationLevel.Anonymous, "post")] HttpRequestData request)
     {
         var data = await JsonSerializer.DeserializeAsync<QuestionResponse>(request.Body);
         await service.CreateAync(data);
@@ -48,7 +48,7 @@ public class SintetizeFunction(SintetizeService service)
     }
 
     [Function("CreateAnswer")]
-    public async Task<HttpResponseData> CreateAnswerAsync([HttpTrigger(AuthorizationLevel.Function, "post", Route = "CreateAnswer")] HttpRequestData request)
+    public async Task<HttpResponseData> CreateAnswerAsync([HttpTrigger(AuthorizationLevel.Anonymous, "post", Route = "CreateAnswer")] HttpRequestData request)
     {
         var data = await JsonSerializer.DeserializeAsync<AnswerResponse>(request.Body);
         await service.CreateAnswerAync(data);
@@ -60,7 +60,7 @@ public class SintetizeFunction(SintetizeService service)
     }
 
     [Function("DeleteQuestion")]
-    public async Task<HttpResponseData> DeleteQuestionAsync([HttpTrigger(AuthorizationLevel.Function, "delete", Route = "DeleteQuestion/{partitionKey}/{rowKey}")] HttpRequestData request,
+    public async Task<HttpResponseData> DeleteQuestionAsync([HttpTrigger(AuthorizationLevel.Anonymous, "delete", Route = "DeleteQuestion/{partitionKey}/{rowKey}")] HttpRequestData request,
         string partitionKey,
         string rowKey)
     {
