@@ -1,7 +1,7 @@
 ﻿namespace sintetize.Models;
 
 public record AnswerResponse(
-    string Id,
-    string? QuestionPartitionKey,
-    string[] Words,
-    string Actor);
+    string id,
+    string? questionPartitionKey,
+    string[] words,
+    string actor);

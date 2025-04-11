@@ -8,10 +8,10 @@ public class SintetizeConvert
     public QuestionResponse ConvertQuestionForResponse(QuestionEntity entity)
     {
         return new QuestionResponse(
-            Id: entity.Id,
-            RowKey: entity.RowKey,
-            Description: entity.Description,
-            Answers: entity.Answers?.Select(ConvertAnswerForResponse).ToList());
+            id: entity.Id,
+            rowKey: entity.RowKey,
+            description: entity.Description,
+            answers: entity.Answers?.Select(ConvertAnswerForResponse).ToList());
     }
 
     public AnswerResponse ConvertAnswerForResponse(AnswerEntity entity)
@@ -19,21 +19,21 @@ public class SintetizeConvert
         string[] words = [entity.Word1, entity.Word2, entity.Word3, entity.Word4, entity.Word5];
 
         return new AnswerResponse(
-            Id: entity.Id,
-            QuestionPartitionKey: entity.PartitionKey,
-            Words: words,
-            Actor: entity.Actor);
+            id: entity.Id,
+            questionPartitionKey: entity.PartitionKey,
+            words: words,
+            actor: entity.Actor);
     }
 
     public QuestionEntity ConvertQuestionForEntity(QuestionResponse response)
     {
         var entity = new QuestionEntity(
-            id: response.Id,
-            description: response.Description);
+            id: response.id,
+            description: response.description);
 
         if (entity.Answers == null || !entity.Answers.Any()) return entity;
 
-        entity.Answers = response.Answers.Select(x => ConvertAnswerForEntity(x, entity.RowKey));
+        entity.Answers = response.answers.Select(x => ConvertAnswerForEntity(x, entity.RowKey));
 
         return entity;
     }
@@ -41,26 +41,26 @@ public class SintetizeConvert
     public AnswerEntity ConvertAnswerForEntity(AnswerResponse response, string questionPartitionKey)
     {
         return new AnswerEntity(
-            id: response.Id,
+            id: response.id,
             partitionKey: questionPartitionKey,
-            word1: response.Words[0],
-            word2: response.Words[1],
-            word3: response.Words[2],
-            word4: response.Words[3],
-            word5: response.Words[4],
-            actor: response.Actor);
+            word1: response.words[0],
+            word2: response.words[1],
+            word3: response.words[2],
+            word4: response.words[3],
+            word5: response.words[4],
+            actor: response.actor);
     }
 
     public AnswerEntity ConvertAnswerForEntity(AnswerResponse response)
     {
         return new AnswerEntity(
-            id: response.Id,
-            partitionKey: response.QuestionPartitionKey,
-            word1: response.Words[0],
-            word2: response.Words[1],
-            word3: response.Words[2],
-            word4: response.Words[3],
-            word5: response.Words[4],
-            actor: response.Actor);
+            id: response.id,
+            partitionKey: response.questionPartitionKey,
+            word1: response.words[0],
+            word2: response.words[1],
+            word3: response.words[2],
+            word4: response.words[3],
+            word5: response.words[4],
+            actor: response.actor);
     }
 }

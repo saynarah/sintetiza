@@ -26,9 +26,19 @@ public class SintetizeService
 
     public async Task<QuestionResponse> GetQuestionAsync(string questionId)
     {
-        var entitie = await _questionRepository.GetAsync("aNS", questionId);
+        var entity = new QuestionEntity();
 
-        return _convert.ConvertQuestionForResponse(entitie);
+        if(questionId == null || String.IsNullOrWhiteSpace(questionId) || questionId == "1")
+        {
+            var entities = await _questionRepository.GetAllAsync();
+            entity = entities.FirstOrDefault();
+        }
+        else
+        {
+            entity = await _questionRepository.GetAsync("aNS", questionId);
+        }
+
+        return _convert.ConvertQuestionForResponse(entity);
     }
 
     public async Task CreateAync(QuestionResponse response)

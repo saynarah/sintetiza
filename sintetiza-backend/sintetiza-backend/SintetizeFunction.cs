@@ -48,7 +48,7 @@ public class SintetizeFunction(SintetizeService service)
     }
 
     [Function("CreateAnswer")]
-    public async Task<HttpResponseData> CreateAnswerAsync([HttpTrigger(AuthorizationLevel.Function, "post")] HttpRequestData request)
+    public async Task<HttpResponseData> CreateAnswerAsync([HttpTrigger(AuthorizationLevel.Function, "post", Route = "CreateAnswer")] HttpRequestData request)
     {
         var data = await JsonSerializer.DeserializeAsync<AnswerResponse>(request.Body);
         await service.CreateAnswerAync(data);
