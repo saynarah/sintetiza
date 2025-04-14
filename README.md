@@ -18,6 +18,9 @@ Aplicação colaborativa onde os usuários respondem a perguntas com exatamente 
 5. **Sem conteúdo ofensivo**:
    - Respostas com palavrões, ofensas ou qualquer tipo de conteúdo discriminatório serão removidas.
 
+![alt text](sintetiza-frontend\src\assets\img\init.png)
+![alt text](sintetiza-frontend\src\assets\img\list.png)
+![alt text](sintetiza-frontend\src\assets\img\rules.png)
 
 ## Tecnologias
 
