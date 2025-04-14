@@ -57,3 +57,26 @@ Angular CLI does not come with an end-to-end testing framework by default. You c
 ## Additional Resources
 
 For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
+
+# Recursos utilizados
+
+Recursos utilizados:
+Angular material icons
+TailwindCss
+Typescript
+
+
+Documentação rxjs: https://dev.to/felipedsc/behaviorsubject-para-comunicacao-entre-componentes-3kpj
+
+# Configuração de containers 
+
+- Criando a imagem:
+docker build -t sintetize-frontend:latest .
+- Carregando:
+docker buildx build --load -t mariaelisagmt/sintetiza-frontend:latest .
+- Criando container:
+docker run -p 8080:80 sintetize-frontend:latest
+- Subindo imagem para o docker:
+docker build -t mariaelisagmt/sintetiza-frontend .
+docker push mariaelisagmt/sintetiza-frontend:latest
