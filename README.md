@@ -53,7 +53,7 @@ func start
 ## Time
 - Maria Elisa Gomes
 - George Ferreira
-- Saynara Sabuco
+- Saynarah Nabuco
 - Samuel Constantino
 
 ## Objetivo
